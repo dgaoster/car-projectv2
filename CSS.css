@@ -1,0 +1,94 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.125rem;
+	line-height: 1.618;
+	margin: 2rem;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: 2px solid;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+
+h2 {
+	padding-top: 5px;
+	margin-top: 15px;
+	text-align: center; 
+}
+
+h3 {
+	text-align: center;
+}
+
+footer {
+	text-align: right;
+}
+
+.wrapper {
+
+}
+.col_01 {
+	width: 40%;
+	float: left;
+}
+
+.col_02 {
+	width: 60%;
+	float: right;
+	padding-left: 3rem;
+	box-sizing: border-box;
+}
+
+.col_02 > :first-child {
+	border-top: none;
+	margin-top: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.specs-button, .camry-button, .sienna-button, .lexus-button {
+	padding: 0.5em 0.5em;
+	margin-bottom: 0.5rem;
+	text-align: center;
+	background-color: white;
+	opacity: 0.9;
+	border: 1px solid black;
+	width: 10rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.specs-button:hover, .camry-button:hover, .sienna-button:hover, .lexus-button:hover {
+	background-color: yellow;
+}
+
+.active {
+	background-color: yellow;
+}
+
+.inactive {
+	background-color: white;
+}
+
+.camry-button, .sienna-button, .lexus-button {
+	margin-left: auto;
+	margin-right: auto;
+}
