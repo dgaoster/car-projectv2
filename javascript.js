@@ -11,7 +11,7 @@ function main() {
 		$(this).toggleClass('active');
 	})
 
-	$('.camry-button').click(function() {
+	$('.camry-button, .camry_img_button').click(function() {
 
 		$('.sienna, .lexus').hide();
 		// $('.sienna-button, .lexus-button').toggleClass('inactive');
@@ -22,7 +22,7 @@ function main() {
 
 	})
 
-	$('.sienna-button').click(function() {
+	$('.sienna-button, .sienna_img_button').click(function() {
 
 		$('.camry, .lexus').hide();
 		// $('.camry-button, .lexus-button').toggleClass('inactive');
@@ -32,7 +32,7 @@ function main() {
 
 	})
 
-	$('.lexus-button').click(function() {
+	$('.lexus-button, .lexus_img_button').click(function() {
 
 		$('.camry, .sienna').hide();
 		// $('.camry-button, .sienna-button').toggleClass('inactive');

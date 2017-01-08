@@ -64,6 +64,20 @@ footer {
 	clear: both;
 }
 
+.col1_50 {
+	margin-left: 7rem;
+	float: left;
+}
+
+.col2_50 {
+	float: right;
+	margin-right: 2rem;
+}
+
+.col2_50 > :first-child {
+	margin-top: 1rem;
+}
+
 .specs-button, .camry-button, .sienna-button, .lexus-button {
 	padding: 0.5em 0.5em;
 	margin-bottom: 0.5rem;
@@ -91,4 +105,16 @@ footer {
 .camry-button, .sienna-button, .lexus-button {
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 5rem;
 }
+
+.camry_img_button, .sienna_img_button, .lexus_img_button {
+	margin-bottom: 1.3rem;
+	padding: 5px;
+}
+
+.camry_img_button:hover, .sienna_img_button:hover, .lexus_img_button:hover {
+	border: 3px solid red;
+	border-spacing: 2rem;
+}
+
