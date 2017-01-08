@@ -1,5 +1,5 @@
 function main() {
-	$('.wrapper, .camry, .sienna, .lexus').hide();
+	$('.wrapper, .sienna, .lexus').hide();
 	// $('.camry').hide();
 	// $('.sienna').hide();
 	// $('.lexus').hide();
@@ -15,7 +15,9 @@ function main() {
 
 		$('.sienna, .lexus').hide();
 		// $('.sienna-button, .lexus-button').toggleClass('inactive');
-		$('.camry').fadeToggle(500);
+		$('.camry').fadeIn(500);
+		$('.camry').show();
+
 		// $('.camry-button').toggleClass('active');
 
 	})
@@ -24,7 +26,8 @@ function main() {
 
 		$('.camry, .lexus').hide();
 		// $('.camry-button, .lexus-button').toggleClass('inactive');
-		$('.sienna').fadeToggle(500);
+		$('.sienna').fadeIn(500);
+		$('.sienna').show();
 		// $('.sienna-button').toggleClass('active');
 
 	})
@@ -33,7 +36,8 @@ function main() {
 
 		$('.camry, .sienna').hide();
 		// $('.camry-button, .sienna-button').toggleClass('inactive');
-		$('.lexus').fadeToggle(500);
+		$('.lexus').fadeIn(500);
+		$('.lexus').show();
 		// $('.lexus-button').toggleClass('active');
 
 	})
