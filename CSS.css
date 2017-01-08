@@ -37,6 +37,11 @@ footer {
 .wrapper {
 
 }
+
+.click_me {
+	clear: both;
+	text-align: center;
+}
 .col_01 {
 	width: 40%;
 	float: left;
