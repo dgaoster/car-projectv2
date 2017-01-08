@@ -80,7 +80,7 @@ footer {
 }
 
 .col2_50 > :first-child {
-	margin-top: 1rem;
+	margin-top: 2.5rem;
 }
 
 .specs-button, .camry-button, .sienna-button, .lexus-button {
@@ -120,6 +120,5 @@ footer {
 
 .camry_img_button:hover, .sienna_img_button:hover, .lexus_img_button:hover {
 	border: 3px solid red;
-	border-spacing: 2rem;
 }
 
